@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación Romántica</title>
+    <link rel="stylesheet" href="../css/invitation.css">
+</head>
+<body>
+    <div class="background-emojis"></div>
+    <div class="letter-container">
+        <div class="letter">
+            <div class="letter-content">
+                <p id="letter-text">Hola, me alegra que hayas llegado hasta aquí y primeramente quisiera que sepas algunas de las razones por las cuales me gustas.</p>
+                <button id="continue-button" onclick="nextMessage()">Continuar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup -->
+    <div id="overlay">
+        <div class="popup">
+            <p id="popup-text"></p>
+            <button id="popup-ok">Ok</button>
+        </div>
+    </div>
+
+    <script src="../js/invitation.js"></script>
+</body>
+</html>

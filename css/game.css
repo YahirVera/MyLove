@@ -1,0 +1,16 @@
+/* game.css */
+
+/* Fondo y lienzo del juego */
+canvas {
+    background-color: #eee;
+    border: 1px solid #333;
+    display: block;
+    margin: 30px auto;
+}
+
+/* Título del juego */
+h1 {
+    color: #e74c3c;
+    font-size: 24px;
+    margin-top: 20px;
+}
